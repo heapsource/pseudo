@@ -54,7 +54,17 @@ Using pseudo loader you will have your middlewares into the filters directory an
         var greeting = this.customContext  // use custom context bound values
         next();
     }
-    
+
+## Routes map (We know you miss "rake routes")?
+When you launch a pseudo enabled app you will see in the console all the loaded routes:
+
+    Loading Actions /Users/thepumpkin/Projects/testpseudo/actions/home.js
+        Routing get /
+        Routing get /dashboard/users/:id/edit
+        Routing get /dashboard/users/:id
+
+This way you will know which file is routing certain route.
+
 ## Download
 
 You can install it using Node Package Manager (npm):

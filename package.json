@@ -1,0 +1,11 @@
+{
+  "name": "pseudo",
+  "description": "A simple loader of actions and middlewares for express.js",
+  "version": "0.1.0",
+  "author": "Johan Hernandez<johan@firebase.co>",
+  "repository": "git://github.com/firebaseco/pseudo",
+  "main": "./index.js",
+  "devDependencies": {
+    "express": ">= 2.4.3",
+  "engines": { "node": ">= 0.1.98" }
+}
